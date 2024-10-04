@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #250001;
+}
+
+.header{
+    background-color: #FF7518;
+}
+
+.name{
+    text-align: center;
+    margin: 0;
+    color: #2B0504;
+    font-size: 4em;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+nav li{
+    display: inline;
+}
+
+.main-nav{
+    text-align: center;
+
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.section{
+    background-color: whitesmoke;
+    text-align: center;
+}
