@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.nav, ul{
+    margin: 0;
+}
+
+.header {
+    background-color: #FF7518;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: #65000B;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav li{
+    display: inline;
+}
+
+.main-nav{
+    text-align: center;
+    border-bottom: 1px  solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.name{
+    text-align: center;
+    margin: 0;
+    color: #2B0504;
+    font-size: 4em;
+}
+
+.name-2{
+    text-align: center;
+    margin: 0;
+    color: #2B0504;
+    font-size: 2em;
+}
+
+.section-info-header{
+    font-size: 2.5em;
+    color: #E9260C;
+}
+
+.content-section{
+    margin: 1em;
+    color: #ff7518;
+}
+
+.content-section P{
+    color: #010001;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.img{
+    float: left;
+    width: 100;
+    height: 100;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.btn{
+    color: #2B0504;
+    background-color: #ff7518;
+    font-size: xx-large;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: box-shadow, transform;
+    border-radius: 25%;
+}
+
+.btn:hover, btn:focus, btn:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    width: 300px;
+    height: 225px;
+}
