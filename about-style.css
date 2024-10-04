@@ -9,6 +9,11 @@ html, body{
     color: #250001;
 }
 
+.main-nav{
+    text-align: center;
+    border-bottom: 1px  solid rgba(255, 255, 255, .3);
+}
+
 .header{
     background-color: #FF7518;
 }
@@ -20,10 +25,17 @@ html, body{
     font-size: 4em;
 }
 
+.name-2{
+    text-align: center;
+    margin: 0;
+    color: #2B0504;
+    font-size: 2em;
+}
+
 .nav a{
     display: inline-block;
     padding: .5em;
-    color: whitesmoke;
+    color: #2B0504;
     text-decoration: none;
 }
 
